@@ -5,7 +5,7 @@ const Constraint = Matter.Constraint;
 
 var engine, world;
 var backgroundImage, monster1, monster2, superhero1, superhero2, sling;
-var ground;
+var ground, block;
 
 function preload() {
 //preload the images here
@@ -26,6 +26,7 @@ function setup() {
   ground = new Ground(500, 600, 1000, 50);
   superhero1 = new Hero(100, 600, 5);
   sling = new Fly(superhero1.body, {x:200,y:230});
+  block = new Block(500, 800, 50, 50);
 }
 
 function draw() {
@@ -35,6 +36,7 @@ function draw() {
   ground.display();
   superhero1.display();
   sling.display();
+  block.display();
 
 }
 
