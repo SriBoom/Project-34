@@ -9,11 +9,11 @@ var ground, block;
 
 function preload() {
 //preload the images here
-backgroundImage = loadImage("/images/GamingBackground.png");
-monster1 = loadImage("/images/Monster-01.png");
-monster2 = loadImage("/images/Monster-02.png");
-superhero1 = loadImage("/images/Superhero-01.png");
-superhero2 = loadImage("/images/Superhero-02.png");
+backgroundImage = loadImage("/GamingBackground.png");
+monster1 = loadImage("/Monster-01.png");
+monster2 = loadImage("/Monster-02.png");
+superhero1 = loadImage("/Superhero-01.png");
+superhero2 = loadImage("/Superhero-02.png");
 
 }
 
